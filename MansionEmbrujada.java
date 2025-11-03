@@ -49,7 +49,7 @@ public class MansionEmbrujada {
 
         // Mentre que passos siga major que 0 i no s’haja trobat l’eixida
 
-        while ((passos > 0) && (eixidaTrobada = true)) {
+        while ((passos > 0) && (eixidaTrobada == false)) {
 
             // Mostrar per pantalla "Porta esquerra (1) o dreta (2)?"
             // Crear variable per a l’elecció de l’usuari
@@ -85,8 +85,9 @@ public class MansionEmbrujada {
         }
         // Si no has trobat l’eixida mostrar per pantalla "💀 S’han acabat els passos...
         // La mansió t’atrapa per sempre!"
+        if (eixidaTrobada == false) {
+            System.out.println("💀 S’han acabat els passos... La mansió t’atrapa per sempre!");
+        }
 
-        eixidaTrobada = true;
-        System.out.println("💀 S’han acabat els passos... La mansió t’atrapa per sempre!");
     }
 }
