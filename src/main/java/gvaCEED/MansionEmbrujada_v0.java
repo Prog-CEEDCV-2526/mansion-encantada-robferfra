@@ -1,3 +1,4 @@
+package gvaCEED;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -22,7 +23,7 @@ Requisits:
 - Si es queda sense passos, perd i queda atrapat en la mansió.
 ------------------------------------------------------------
 */
-public class MansionEmbrujada {
+public class MansionEmbrujada_v0 {
     public static void main(String[] args) {
         // Crear la variable Scanner per llegir per pantalla
 
