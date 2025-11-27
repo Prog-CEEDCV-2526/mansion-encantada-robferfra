@@ -31,7 +31,9 @@
               <configuration>
                   <useFile>true</useFile>
                   <printSummary>true</printSummary>
+                  <redirectTestOutputToFile>true</redirectTestOutputToFile>
                   <reportFormat>brief</reportFormat>
+                <disableXmlReport>false</disableXmlReport>
             </configuration>
             </plugin>
         </plugins>
